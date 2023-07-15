@@ -1,13 +1,13 @@
 
-""" greeting_length = len(greeting)
+greeting_length = len(greeting)
 print(len(greeting))
-print(greeting_length) """
+print(greeting_length)
  
 # Indexing
-""" print(greeting[0])
+print(greeting[0])
 print(greeting[6])
 print(greeting[-1]) # первый элемент с конца - ! знак
-print(greeting[12]) # тот же знак """
+print(greeting[12]) # тот же знак 
  
 greeting = 'Hello Python!'
 # Slicing

@@ -103,3 +103,8 @@ print(number_list2)
 print(letter_list)
 #[45, 22, 12, 3, -445]
 #['w', 't', 's', 'a']
+
+# Создание структуры данных лист в тисте
+number_list2.append(letter_list)
+print(number_list2)
+#[45, 22, 12, 3, -445, ['w', 't', 's', 'a']]
