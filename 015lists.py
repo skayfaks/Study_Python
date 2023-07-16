@@ -6,7 +6,7 @@ some_list =  [12,35.22, 'STROKA']
 print(some_list)
 #[12, 35.22, 'STROKA']
 
-print(len(some_list)) #через функцию len узнаем длинну
+print(len(some_list)) #через функцию len узнаем количество элементов в листе
 #3
 
 #индексация и слайсинг элементов списка
