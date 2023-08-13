@@ -8,7 +8,7 @@
 
 # Создание списка из последовательности
 
-""" greeating="Hello!"              #  переменная (строка) 
+""" greeating="Hello!"          #  переменная (строка) 
 letter_list=[]                  #  переменная списка (создание пустого списка)
 for letter in greeating:        #  цикл по добавлению в лист данных из переменной, перебор символа из пер-ой greeating
     letter_list.append(letter)  #  добавляем буквы в letter_list с помощью append
@@ -48,13 +48,14 @@ print(new_list)
 #[6, 2, 11, 3, 345] """
 
 
-# Пример - если встречаем положительное число помещаем +, если отрицательное -
+""" # Пример - если встречаем положительное число помещаем +, если отрицательное -
 new_list1=["+" if number>0 else "-" if number<0 else 'zero' for number in number_list]
 # мы переносим вперед оператор if если применяется else !!
 print(new_list1)
-#['+', '+', '+', '-', '-', 'zero', '+', '+']
+#['+', '+', '+', '-', '-', 'zero', '+', '+'] """
 
 
-chislovoy_ryad=[-1,2,3,-23]
+""" chislovoy_ryad=[-1,2,3,-23]
 new=['+' if num>0 else print("otricetelnoe") for num in chislovoy_ryad]
 print(new)
+ """

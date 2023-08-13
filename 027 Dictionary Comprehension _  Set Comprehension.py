@@ -23,16 +23,16 @@ print(num_dict2) """
 
 
 # Множества
-number_list=[6,2,11,-55,0,-12,3,345]
+""" number_list=[6,2,11,-55,0,-12,3,345]
 num_set={number**2 for number in number_list}
-print(num_set)
+print(num_set) """
 #{0, 36, 4, 9, 144, 3025, 119025, 121}   - мы получаем не упорядоченные элементы ( Так как множество - это неупор элементы)
 
-num_set={number**2 for number in range(3,10)}
-print(num_set)
+""" num_set={number**2 for number in range(3,10)}
+print(num_set) """
 #{64, 36, 9, 16, 49, 81, 25} получаем не упорядоченную выборку элементос с 3 по 9 возв-е в квадрат
 
 # можем создать множество
-letter_set={letter.upper() for letter in 'hello'} # метод .upper() делает буквы заглавными
-print(letter_set)
+""" letter_set={letter.upper() for letter in 'hello'} # метод .upper() делает буквы заглавными
+print(letter_set) """
 # {'l', 'e', 'o', 'h'} - получаем множество уникальных элементов ПОЭТОМУ l - всего одна

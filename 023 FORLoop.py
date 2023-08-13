@@ -15,11 +15,11 @@
 
 """ number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for number in number_list:
-     print(str(number) + ' ПРИВЕТ!')
+     print(str(number) + ' ПРИВЕТ!') """
 
 x=['q','w','e','r','t','y']
 for y in x:
-     print(y) """
+     print(y)
 
 
 #Числа которые делятся на 2 и на 7 - все 3х значные числа 100 (включено в посл-ть), 1000 (не вкд-но)
